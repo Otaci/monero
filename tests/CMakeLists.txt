@@ -106,7 +106,7 @@ set_property(TARGET hash-target-tests
 
 add_test(
   NAME    hash-target
-  COMMAND hash-target-tests)
+  COMMAND hash-target-tests --gtest_output=xml)
 
 set(enabled_tests
     coretests
